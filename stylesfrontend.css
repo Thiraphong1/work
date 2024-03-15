@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "kanit";
+    src: url("./Kanit/Kanit-Regular.ttf");
+  }
+  
+  body {
+    font-family: "kanit";
+    background-color: rgba(128, 121, 124, 0.815);
+    background-image: url(https://media.istockphoto.com/id/167590899/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2.jpg?s=2048x2048&w=is&k=20&c=TQgCbfLME6F-tRdCZ8zFdjyOJsXS_wh4nC8pm0kLqRQ=);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 236, 226);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+  }
+  
+  .header {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(227, 241, 241);
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+  }
+  .header::after{
+    content: "❗️";
+  }
+
+  .navbar{
+    text-align: center;
+  }
+
+  .edit{
+    border: 1;
+    background-color: rgb(38, 0, 255);
+    padding: 5px;
+    }
+
+    .edit:hover{
+        background-color: rgb(10, 250, 110);
+        color: rgb(22, 228, 255);
+        border: 1;
+    }
+    
+    .delete{
+        border: 1;
+        background-color: rgb(255, 7, 7);
+        padding: 5px;
+    }
+    
+    .delete:hover{
+        background-color: rgb(255, 0, 212);
+        color: rgb(218, 255, 10);
+        border: 1;
+    }
+ 
+
+    @media screen and (max-width: 768px){
+        .flex {
+          flex-direction: column;
+        }
+        .header{
+            font-size: 24px;
+        }
+        .button {
+          width: 100%;
+        }
+      }
